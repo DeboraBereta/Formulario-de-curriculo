@@ -1,0 +1,87 @@
+ body {
+            font-size: 19px; /*tamanho da letra*/
+            background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-luzes-de-neon-de-formas-geometricas_23-2148435097.jpg?w=1380&t=st=1679335787~exp=1679336387~hmac=9c8d2af2793ae175150bfd969ecd4c170377722925ba16d47d212afce74c99df');/*link da imagem de fundo*/
+        }
+/*Formulario*/
+        form {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: rgb(255, 255, 255, 0.5);
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+            
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+
+input[type="date"], input[type="DataDeNascimento"], textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+
+
+
+input[type="submit"] {
+        margin:20px;   
+    width: 30%;
+            background-color: #000000;
+          color:#fcfcfc;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+   border: 2px solid #ff0000;
+ padding:10px 20px;
+ 
+        }
+ input[type="submit"]:hover{
+  
+  background-color:red;
+  color:black;
+  cursor:pointer;
+   border: 2px solid #000000;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  color:black;
+}
+ 
+select{
+  width: 100%;
+  height: 50px;
+  margin: 0px 0px 10px 5px; /* cima - direita - baixo - esquerda */
+  padding-left: 10px;
+  border-radius:20px;
+  color:#ff0000
+}
+#print{
+  border-radius:20px;
+  background:white;
+  opacity:0.7;
+  width:40%;
+   margin-left: auto;
+    margin-right: auto;
+}
+#printDados{/*id da area onde se deseja modificar*/
+  border-radius:20px; /*aredonda a borda*/
+  background:white;/* cor da classe*/
+  opacity:0.7; /*deixa transparente/opaco*/
+  width:60%; /*ocupacidade da pagina*/
+  margin-left: auto; /*margem para a esquerda*/
+  margin-right: auto; /*margem para a direita*/
+}
